@@ -1,0 +1,55 @@
+body{
+    background-image: url(../Images/Background_Login.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#loginForm{
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#TitleLogin{
+    text-align: center;
+    font-size: 45px;
+    margin-top: 70px;
+    color: white;
+}
+
+#ViewPassword{
+    margin-left: 25px;
+}
+
+.LabelCheckbox{
+    color: white;
+}
+
+.LoginInput{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 346px;
+    height: 43px;
+    margin: 15px 20px;
+}
+
+.btnSubmit{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #630101;
+    color: white;
+    padding: 15px 45px;
+    margin: 31px 137px;
+    font-size: 15px
+}
+
+.btnSubmit:hover{
+    background-color: #460202;
+    cursor: pointer;
+}
